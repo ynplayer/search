@@ -926,10 +926,10 @@ legend {
   font-size: 14px;
   font-family: 'Helvetica', sans-serif;
   display: inline-block;
-  background: rgba(0, 0, 0, 0.6);
+  background: #f7f7f7;
   padding: 0 15px;
   line-height: 32px;
-  color: #fff;
+  color: #333333;
   border-radius: 16px;
   margin-right: 10px;
   margin-bottom: 10px;
