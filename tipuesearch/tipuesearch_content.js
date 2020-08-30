@@ -1,5 +1,5 @@
 var tipuesearch = {"pages": [
-     {"title": "Tipue Search, a site search engine jQuery plugin", "text": "Tipue Search is a site search engine jQuery plugin. Tipue Search is open source and released under the MIT License, which means it's free for both commercial and non-commercial use. Tipue Search is responsive and works on all reasonably modern browsers.", "tags": "JavaScript", "loc": "http://www.tipue.com/search"},
+     {"title": "tes aku, Dataku", "text": "Data terakurat", "tags": "JavaScript", "loc": "https://ynplayer.github.io/search/d/tes"},
      {"title": "Tipue Search Static mode demo", "text": "This is a demo of Tipue Search Static mode.", "tags": "", "loc": "http://www.tipue.com/search/demos/static"},
      {"title": "Tipue Image Search demo", "text": "This is a demo of Tipue Image Search.", "tags": "", "loc": "http://www.tipue.com/search/demos/images"},
      {"title": "Tipue Search docs", "text": "If you haven't already done so, download Tipue Search. Copy the tipuesearch folder to your site.", "tags": "documentation", "loc": "http://www.tipue.com/search/docs"},     
