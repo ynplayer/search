@@ -10,10 +10,10 @@ http://www.tipue.com/search
 #tipue_search_input
 {
      font: 12px/1.7 'Open Sans', sans-serif;
-	color: #3f72d8;
+	color: #333;
 	padding: 7px;
 	width: 150px;
-	border: 1px solid #3f72d8;
+	border: 1px solid #e2e2e2;
 	border-radius: 0;
 	-moz-appearance: none;
 	-webkit-appearance: none;
