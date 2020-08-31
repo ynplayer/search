@@ -18,7 +18,7 @@
     <div class="s006">
       <form>
         <fieldset>
-          <legend>What are you looking for?</legend>
+          <legend>What are you looking for?w</legend>
           <div class="inner-form">
             <div class="input-field">
               <button class="btn-search" type="button" id="tipue_search_button">
@@ -40,6 +40,13 @@
 	  
     </div>
 
+<script>
+    document.getElementById('tipue_search_input').addEventListener('keypress', function(event) {
+        if (event.keyCode == 13) {
+            event.preventDefault();
+        }
+    });
+</script>
 
 	<script>
 $(document).ready(function() {
