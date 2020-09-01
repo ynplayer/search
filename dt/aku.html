@@ -25,7 +25,7 @@
         <img src="assets/img/logo-icon.png" alt="icon" class="loading-icon">
     </div>
     <!-- * loader -->
-
+<div style="display:none;" id="myDiv">
     <!-- App Header -->
     <div class="appHeader">
         <div class="left">
@@ -166,7 +166,7 @@
                 <strong>Settings</strong>
             </div>
         </a>
-    </div>
+    </div></div>
     <!-- * App Bottom Menu -->
 
 
@@ -182,17 +182,20 @@
     <script src="assets/js/plugins/owl-carousel/owl.carousel.min.js"></script>
     <!-- Base Js File -->
     <script src="assets/js/baseae52.js?v=5"></script>
-
 <script>
-     function showLoader()
-{
-    $(".loader").fadeIn("slow");
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
 }
-function hideLoader()
-{
-    $(".loader").fadeOut("slow");
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
 }
-    </script>
+</script>
+
+
 </body>
 
 
