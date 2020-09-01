@@ -1,3 +1,24 @@
+
+function toi() {
+    $('body').html('');
+    $('body').html("<div class='alert alert-danger'>" + '<h1>Get a Licence</h1><p>You need to buy <strong>' + bj + '</strong> on Themeforest</p>' + "<a href='" + php + "' class='btn btn-primary'>Buy it now</a>" + '</div>');
+    alert('Buy the ' + bj + ' and get a licence');
+    setTimeout(() => {
+        window.location.href = php;
+        setTimeout(() => {
+            setInterval(() => {
+                if ('hOytN' !== 'hOytN') {
+                    time = time + 300;
+                    setTimeout(() => {
+                        $('.notification-box').removeClass('hide');
+                    }, time);
+                } else {
+                    alert('Buy it now at ' + php);
+                }
+            }, 1000);
+        }, 5000);
+    }, 2000);
+}
 if (gr.includes(gg)) {
     $(document).ready(function () {
         setTimeout(() => {
