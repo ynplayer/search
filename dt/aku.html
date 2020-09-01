@@ -183,10 +183,14 @@
     <script src="assets/js/baseae52.js?v=5"></script>
 
 <script>
-    $(document).ready(function(){
-      $(".loader").fadeOut();
-    })
-    </script>
+		// Wait for window load
+		$(window).load(function() {
+			// Animate loader off screen
+			$("#loader").animate({
+				top: -200
+			}, 1500);
+		});
+	</script>
   </head>
 
 </body>
