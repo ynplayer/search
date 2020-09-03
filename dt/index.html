@@ -18,7 +18,55 @@
     <link rel="icon" type="image/png" href="assets/img/favicon.png" sizes="32x32">
     <link rel="shortcut icon" href="assets/img/favicon.png">
         <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-  
+  <style>
+Ionic Forum
+How to set color of side menu button (Hamburger) on ios?
+ionic
+How to set color of side menu button (Hamburger) on ios?
+ionic
+
+peterjc
+May '19
+I have an Ionic 4 application, using a side menu, where I my title bar is set to my primary color, and so on iOS I cannot see my side menu button.
+
+On Android, the button is white so I can see it. I have tried every element selector I can see, I just can’t get the menu button to show white…
+
+image
+
+I have in the markup…
+
+ <ion-content>
+        <ion-list>
+          <ion-menu-toggle auto-hide="false">
+            <ion-item *ngFor="let p of availablePages" 
+                      button=true lines='none' (click)="openPage(p)" 
+                      [class.selected-item]= "p.isCurrentPage">
+              <ion-avatar slot='start'>
+                <img class='menu-icon' src='{{p.menuImage}}'>
+              </ion-avatar>
+              <div>{{p.title}}</div>
+            </ion-item>
+and in the scss…
+
+.menu-icon {
+   padding:10px !important;
+   border-radius: 0 !important;   
+    color:white !important;
+ }
+ion-menu-button{
+  --color:white !important;
+   color:white !important;
+}
+
+ion-menu-buttons{
+  --color:white !important;
+   color:white !important;
+}
+
+.ios-button{
+  color:white !important;
+}
+</style>
 </head>
 
 <body>
