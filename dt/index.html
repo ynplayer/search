@@ -18,18 +18,17 @@
     <link rel="icon" type="image/png" href="assets/img/favicon.png" sizes="32x32">
     <link rel="shortcut icon" href="assets/img/favicon.png">
         <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-  <javascript>
+ 
+<script>
+window.addEventListener("load", function(){
+	var load_screen = document.getElementById("load_screen");
+	document.body.removeChild(load_screen);
+});
+</script>
 
-function splash(param) {
- var time = param;
- setTimeout(function () {
-   $('#splashscreen').hide();
- }, time);
-}
-</javascript>
 </head>
 
-<body onload="splash(3000)">
+<body>
 
     <!-- loader -->
     
