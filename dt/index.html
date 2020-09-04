@@ -18,30 +18,18 @@
     <link rel="icon" type="image/png" href="assets/img/favicon.png" sizes="32x32">
     <link rel="shortcut icon" href="assets/img/favicon.png">
         <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-  <style>
+  <javascript>
 
-.menu-icon {
-   padding:10px !important;
-   border-radius: 0 !important;   
-    color:white !important;
- }
-ion-menu-button{
-  --color:white !important;
-   color:white !important;
+function splash(param) {
+ var time = param;
+ setTimeout(function () {
+   $('#splashscreen').hide();
+ }, time);
 }
-
-ion-menu-buttons{
-  --color:white !important;
-   color:white !important;
-}
-
-.ios-button{
-  color:white !important;
-}
-</style>
+</javascript>
 </head>
 
-<body>
+<body onload="splash(3000)">
 
     <!-- loader -->
     
